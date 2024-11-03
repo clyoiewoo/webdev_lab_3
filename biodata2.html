@@ -54,6 +54,16 @@
             height: auto;
         }
 
+        nav {
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #5e00ec;
+        }
+
         table {
             width: 100%;
             border-collapse: collapse;
@@ -102,6 +112,10 @@
                 flex-direction: row;
             }
         }
+
+        section {
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -111,73 +125,81 @@
             <img src="img/nurjeha.jpg" alt="Nurjeha's photo">
         </div>
 
+        <nav>
+            <a href="#biodata">Biodata</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#campus-life">Campus Life</a>
+        </nav>
+
         <audio controls>
             <source src="audio/music.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
 
-        <table>
-            <tr>
-                <td>Date of Birth</td>
-                <td colspan="2">28 April 2003</td>
-            </tr>
-            <tr>
-                <td>Religion</td>
-                <td colspan="2">Islam</td>
-            </tr>
-            <tr>
-                <td>Race</td>
-                <td colspan="2">Malay</td>
-            </tr>
-            <tr>
-                <td>Address</td>
-                <td colspan="2">No 64, Kampung Tajin, 21700 Kuala Berang, Hulu Terengganu, Kuala Terengganu</td>
-            </tr>
-            <tr>
-                <td>Contact</td>
-                <td colspan="2">
-                    <div class="contact-box">
-                        <div class="contact-item">Phone: 014-5063368</div>
-                        <div class="contact-item">Instagram: @_nrjeha</div>
-                        <div class="contact-item"><a href="https://clyoiewoo.github.io/WEBDEV_LAB_2/biodata.html">Website</a></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>Course and Institution</td>
-                <td colspan="2">Bachelor of Computer Science (Software Engineering) with Honors, Universiti Tun Hussein Onn Malaysia</td>
-            </tr>
-            <tr>
-                <td>Programming Skills</td>
-                <td colspan="2">Java, C#, HTML, CSS</td>
-            </tr>
-            <tr>
-                <td>Personal Interests</td>
-                <td colspan="2">I like trying new things</td>
-            </tr>
-            <tr>
-                <td>Future Plan in 2025</td>
-                <td colspan="2">Intern at a good company</td>
-            </tr>
-            <tr>
-                <td>Hobbies</td>
-                <td colspan="2">Reading manhwa (Korean comic/webtoon) and crocheting various crafts.</td>
-            </tr>
-            <tr>
-                <td>Campus Life</td>
-                <td colspan="2">
-                    Participated in various events and organizations such as:
-                    <ul>
-                        <li>Majlis Kepimpinan Pelajar (MKP) KKDK</li>
-                        <li>Townhall Majlis Perwakilan Pelajar (MPP)</li>
-                        <li>Fire drills with Ready Rescue KKDK</li>
-                        <li>Organizing activities like Masjid Angkat and the sign language workshop 'Our Adolescence Journey</li>
-                        <li>International Virtual Sharing Explorenet</li>
-                        <li>Served as secretary for Sukan Antara Kolej Kediaman (SUKOL) 2024</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
+        <section id="biodata">
+            <table>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td colspan="2">28 April 2003</td>
+                </tr>
+                <tr>
+                    <td>Religion</td>
+                    <td colspan="2">Islam</td>
+                </tr>
+                <tr>
+                    <td>Race</td>
+                    <td colspan="2">Malay</td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td colspan="2">No 64, Kampung Tajin, 21700 Kuala Berang, Hulu Terengganu, Kuala Terengganu</td>
+                </tr>
+                <tr>
+                    <td>Contact</td>
+                    <td colspan="2">
+                        <div class="contact-box">
+                            <div class="contact-item">Phone: 014-5063368</div>
+                            <div class="contact-item">Instagram: @_nrjeha</div>
+                            <div class="contact-item"><a href="https://clyoiewoo.github.io/WEBDEV_LAB_2/biodata.html">Website</a></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Course and Institution</td>
+                    <td colspan="2">Bachelor of Computer Science (Software Engineering) with Honors, Universiti Tun Hussein Onn Malaysia</td>
+                </tr>
+                <tr>
+                    <td>Programming Skills</td>
+                    <td colspan="2">Java, C#, HTML, CSS</td>
+                </tr>
+                <tr>
+                    <td>Personal Interests</td>
+                    <td colspan="2">I like trying new things</td>
+                </tr>
+                <tr>
+                    <td>Future Plan in 2025</td>
+                    <td colspan="2">Intern at a good company</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <p>Reading manhwa (Korean comic/webtoon) and crocheting various crafts.</p>
+        </section>
+
+        <section id="campus-life">
+            <h2>Campus Life</h2>
+            <p>Participated in various events and organizations such as:</p>
+            <ul>
+                <li>Majlis Kepimpinan Pelajar (MKP) KKDK</li>
+                <li>Townhall Majlis Perwakilan Pelajar (MPP)</li>
+                <li>Fire drills with Ready Rescue KKDK</li>
+                <li>Organizing activities like Masjid Angkat and the sign language workshop 'Our Adolescence Journey</li>
+                <li>International Virtual Sharing Explorenet</li>
+                <li>Served as secretary for Sukan Antara Kolej Kediaman (SUKOL) 2024</li>
+            </ul>
+        </section>
     </div>
 </body>
 </html>
